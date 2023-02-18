@@ -1,13 +1,30 @@
-# AMV v1
+# DCP AMV v1
 
 works on node v14.21.2
 
 Step 1 :  
 pip3 install -r requirements.txt  
+
 Step 2 :  
-uncomment/comment videos in create_run.py  
-run create_run.py with at least 4 videos uncommented  
+create 2 empty folders in 'runs' folder called 'run1' and 'run1_output'  
+(folder structure should look like)  
+/data/runs  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;/run1  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;/run1_output  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;/storage  
+    
 Step 3 :  
-run main.py  
-Step 4 :   
-Whole thing runs, then plot shows up, click x on the plot and rest of code creates videos stored into run1_output folder  
+uncomment/comment videos in create_run.py  
+run >create_run.py (with at least 4 videos uncommented, might take 30-40 seconds)
+
+Step 4 :  
+run >main.py  
+
+Step 5 :   
+dcp part runs, then plot shows up, click x on the plot and rest of code will run creating videos stored into 'run1_output' folder  
+
+<br>
+<br>
+<br>
+
+I do not own any audio/video/technology used in this project
