@@ -1,0 +1,6 @@
+requests
+git+https://github.com/Distributive-Network/Bifrost
+opencv-python
+numpy
+moviepy
+matplotlib
